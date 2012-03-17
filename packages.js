@@ -1,4 +1,4 @@
-{ "packages": [
+var packages = { "packages": [
 {
     "name": "ace",
     "filename": "ace.js",
@@ -51,7 +51,7 @@
 {
     "name": "backbone.js",
     "filename": "backbone-min.js",
-    "version": "0.9.1",
+    "version": "0.9.0",
     "description": "Backbone supplies structure to JavaScript-heavy applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing application over a RESTful JSON interface.",
     "homepage": "http://documentcloud.github.com/backbone/",
     "keywords": [
@@ -65,14 +65,14 @@
        {
            "name": "Jeremy Ashkenas",
            "email": "jashkenas@gmail.com",
-           "web": "http://ashkenas.com/"
-       }
+           "web": "http://ashkenas.com/" 
+       } 
    ],
    "repositories": [
        {
            "type": "git",
-           "url": "https://github.com/documentcloud/backbone"
-       }
+           "url": "https://github.com/documentcloud/backbone" 
+       } 
    ]
 
 }
@@ -80,17 +80,16 @@
 {
     "name": "camanjs",
     "filename": "caman.full.min.js",
-    "version": "3.1.1",
+    "version": "3.1.0",
     "description": "Pure Javascript (Ca)nvas (Man)ipulation.",
     "homepage": "http://camanjs.com/",
     "keywords": [
+       "css",
+       "css3",
+       "dom",
+       "html",
        "html5",
-       "canvas",
-       "image",
-       "filter",
-       "manipulate",
-       "pixel",
-       "effects"
+       "popular"
    ],
    "maintainers": [
        {
@@ -129,7 +128,7 @@
 {
     "name": "coffee-script",
     "filename": "coffee-script.min.js",
-    "version": "1.2.0",
+    "version": "1.1.2",
     "description": "CoffeeScript is a little language that compiles into JavaScript. Underneath all of those embarrassing braces and semicolons, JavaScript has always had a gorgeous object model at its heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.",
     "homepage": "http://jashkenas.github.com/coffee-script/",
     "keywords": [
@@ -144,14 +143,14 @@
        {
            "name": "Jeremy Ashkenas",
            "email": "jashkenas@gmail.com",
-           "web": "http://ashkenas.com/"
-       }
+           "web": "http://ashkenas.com/" 
+       } 
    ],
    "repositories": [
        {
            "type": "git",
-           "url": "https://github.com/jashkenas/coffee-script.git"
-       }
+           "url": "https://github.com/jashkenas/coffee-script.git" 
+       } 
    ]
 
 }
@@ -184,7 +183,6 @@
 {
     "name": "css3pie",
     "version": "1.0beta5",
-    "filename": "PIE.js",
     "homepage": "http://css3pie.com",
     "description": "CSS3 PIE JavaScript edition. Enables rendering of common CSS3 decoration properties in Internet Explorer 6-9.",
     "keywords": [
@@ -243,31 +241,6 @@
            "url": "https://github.com/sorccu/cufon/"
        }
    ]
-}
-,
-{
-    "name": "d3",
-    "filename": "d3.min.js",
-    "version": "2.7.4",
-    "description": "A small, free JavaScript library for manipulating documents based on data.",
-    "keywords": [
-        "dom",
-        "w3c",
-        "visualization",
-        "svg",
-        "animation",
-        "canvas"
-    ],
-    "homepage": "http://mbostock.github.com/d3/",
-    "author": {
-        "name": "Mike Bostock",
-        "email": "mbostock@gmail.com",
-        "url": "http://bost.ocks.org/mike"
-    },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/mbostock/d3.git"
-    }
 }
 ,
 {
@@ -348,7 +321,7 @@
 ,
 {
   "author": "Jerome Gravel-Niquet <jeromegn@gmail.com> (http://jgn.me)",
-  "name": "documentup",
+  "name": "DocumentUp",
   "description": "Pretty documentation generator for Github projects with proper Readme.",
   "version": "0.1.1",
   "homepage": "http://documentup.com",
@@ -387,31 +360,6 @@
            "name": "The Dojo Foundation"
        } 
    ]
-}
-,
-{
-    "name": "ember.js",
-    "filename": "ember-0.9.4.min.js",
-    "version": "0.9.4",
-    "description": "Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.",
-    "homepage": "http://emberjs.com/",
-    "keywords": [
-       "ember",
-       "ember.js"
-   ],
-   "maintainers": [
-       {
-           "name": "Ember.js",
-           "web": "http://emberjs.com"
-       }
-   ],
-   "repositories": [
-       {
-           "type": "git",
-           "url": "https://github.com/emberjs/ember.js"
-       }
-   ]
-
 }
 ,
 {
@@ -699,7 +647,7 @@
 {
     "name": "html5shiv",
     "filename": "html5.js",
-    "version": "r29",
+    "version": "r23",
     "description": "html5shiv is an HTML5 JavaScript shim for IE to recognise and style the HTML5 elements",
     "homepage": "http://code.google.com/p/html5shiv/",
     "keywords": [
@@ -717,33 +665,6 @@
        {
            "type": "svn",
            "url": "http://html5shiv.googlecode.com/svn/trunk/"
-       }
-   ]
-}
-,
-{
-    "name": "ICanHaz.js",
-    "filename": "ICanHaz.min.js",
-    "version": "0.9",
-    "description": "A clean solution for templating with Mustache.js and jQuery or Zepto",
-    "homepage": "http://icanhazjs.com",
-    "keywords": [
-       "templating",
-       "mustache",
-       "jquery",
-       "zepto"
-   ],
-   "maintainers": [
-       {
-           "name": "&yet",
-           "email": "contact@andyet.net",
-           "web": "http://andyet.net"
-       }
-   ],
-   "repositories": [
-       {
-           "type": "git",
-           "url": "https://github.com/andyet/ICanHaz.js"
        }
    ]
 }
@@ -809,7 +730,7 @@
 }
 ,
 {
-    "name": "jquery-throttle-debounce",
+    "name": "jQuery throttle / debounce",
     "filename": "jquery.ba-throttle-debounce.min.js",
     "version": "1.1",
     "description": "jQuery throttle / debounce allows you to rate-limit your functions in multiple useful ways.",
@@ -832,33 +753,6 @@
            "url": "https://github.com/cowboy/jquery-throttle-debounce.git" 
        } 
    ]
-}
-,
-{
-    "name": "jquery-tools",
-    "filename": "jquery.tools.min.js",
-    "version": "1.2.6",
-    "description": "jQuery Tools is a collection of the most important user-interface components for modern websites. Used by large sites all over the world.",
-    "homepage": "http://flowplayer.org/tools/index.html",
-    "keywords": [
-       "jquery",
-       "ui",
-       "tools"
-   ],
-   "maintainers": [
-       {
-           "name": "jQuery Tools",
-           "email": "tipiirai+jquerytools@gmail.com",
-           "web": "http://flowplayer.org/tools/index.html"
-       }
-   ],
-   "repositories": [
-       {
-           "type": "git",
-           "url": "https://github.com/jquerytools/jquerytools"
-       }
-   ]
-
 }
 ,
 {
@@ -1096,7 +990,7 @@
 {
     "name": "modernizr",
     "filename": "modernizr.min.js",
-    "version": "2.5.3",
+    "version": "2.0.6",
     "description": "Modernizr adds classes to the element which allow you to target specific browser functionality in your stylesheet. You don't actually need to write any Javascript to use it.",
     "homepage": "http://www.modernizr.com/",
     "keywords": [
@@ -1176,13 +1070,13 @@
 
 ,
 {
-    "name": "ninjaui",
-    "filename": "jquery.ninjaui.min.js",
+    "name": "Ninja UI",
+    "filename": "jquery.ninjaui.js",
     "version": "1.0.1",
     "description": "The jQuery plugin for lethal interaction",
     "homepage": "http://ninjaui.com/",
     "keywords": [
-       "ninjaui",
+       "ninjaui"
        "ui",
        "jquery"
    ],
@@ -1234,7 +1128,7 @@
 {
     "name": "ocanvas",
     "filename": "ocanvas.min.js",
-    "version": "2.0.0",
+    "version": "1.0",
     "description": "oCanvas is a JavaScript library that makes development with HTML5 canvas easy, by using an object-based approach.",
     "homepage": "http://ocanvas.org/",
     "keywords": [
@@ -1251,7 +1145,7 @@
    "repositories": [
        {
            "type": "git",
-           "url": "https://github.com/koggdal/ocanvas"
+           "url": "https://github.com/ocanvas/ocanvas" 
        } 
    ]
 
@@ -1457,7 +1351,7 @@
 {
     "name": "require.js",
     "filename": "require.min.js",
-    "version": "1.0.5",
+    "version": "1.0.1",
     "description": "RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node",
     "homepage": "http://requirejs.org/",
     "keywords": [
@@ -1807,29 +1701,6 @@
        } 
    ]
 
-}
-,
-{
-    "name": "twitter-bootstrap",
-    "filename": "bootstrap.min.js",
-    "version": "2.0.1",
-    "description": "Javascript plugins for the Twitter Bootstrap toolkit",
-    "homepage": "http://twitter.github.com/bootstrap/",
-    "keywords": [
-       "twitter",
-       "bootstrap"
-   ],
-   "maintainers": [
-       {
-           "name": "Twitter, Inc."
-       }
-   ],
-   "repositories": [
-       {
-           "type": "git",
-           "url": "https://github.com/twitter/bootstrap"
-       }
-   ]
 }
 ,
 {
